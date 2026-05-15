@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>twentyforjeanne — happy 20th, krisjeanne</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- floating leaves ?      -->
+  <div class="leaves" id="leaves" aria-hidden="true"></div>
+
+  <!-- music makes u lose control -->
+  <audio id="bgm" preload="auto"></audio>
+
+  <!-- music makes u lose control -->
+  <button id="musicToggle" class="music-toggle" aria-label="Toggle music" title="Toggle music">
+    <span class="music-icon">♪</span>
+    <span class="music-label">music: off</span>
+  </button>
+
+  <!-- gift box!!!!!! :D -->
+  <main id="screenBox" class="screen screen--box">
+    <div class="box-stage">
+      <div class="box-shadow"></div>
+
+      <div id="giftBox" class="gift-box" role="button" tabindex="0" aria-label="open your gift">
+        <div class="box">
+            <div class="box-tape">
+                <div class="box-tape-left"></div>
+                <div class="box-tape-right"></div>
+                <div class="box-tape-centre"></div>
+            </div>
+
+            <div class="box-gifts">
+                <div class="box-gift-shadow"></div>
+            </div>
+
+            <div class="box-gift"></div>
+            <div class="box-star box-star-1"></div>
+            <div class="box-star box-star-2"></div>
+            <div class="box-star box-star-3"></div>
+            <div class="box-star box-star-4"></div>
+            <div class="box-star box-star-5"></div>
+        </div>
+
+        <div class="box-tag">unwrap me!</div>
+      </div>
+      <h1 class="title">happy 20th birthday jeanne </h1>
+      <p class="subtitle">let's tell you 20 things we love about you.</p>
+    </div>
+  </main>
+
+  <!-- all the letteres from all the girls <3  -->
+  <section id="screenLetters" class="screen screen--letters" hidden>
+    <header class="letters-header">
+      <h2 class="letters-title">from the four of us to you.</h2>
+      <p class="letters-sub">if we could, we'd list 100, but we want to keep things short and sweet.</p>
+    </header>
+
+    <div class="letter-stage">
+      <button id="prevBtn" class="nav-btn nav-btn--prev" aria-label="Previous letter">‹</button>
+
+      <article id="letterCard" class="letter-card">
+        <div class="letter-card__inner">
+          <div class="letter-corner letter-corner--tl"></div>
+          <div class="letter-corner letter-corner--tr"></div>
+          <div class="letter-corner letter-corner--bl"></div>
+          <div class="letter-corner letter-corner--br"></div>
+
+          <div class="letter-meta">
+            <span id="letterNum" class="letter-num">letter 01 / 20</span>
+            <span id="letterTrait" class="letter-trait">trait</span>
+          </div>
+
+          <h3 id="letterTo" class="letter-to">dear jeanne,</h3>
+          <p id="letterBody" class="letter-body"></p>
+
+          <footer class="letter-foot">
+            <span class="letter-sign">with love,</span>
+            <span id="letterFrom" class="letter-from">— friend</span>
+          </footer>
+        </div>
+      </article>
+
+      <button id="nextBtn" class="nav-btn nav-btn--next" aria-label="Next letter">›</button>
+    </div>
+
+    <!-- little dots :o -->
+    <div id="dots" class="dots" role="tablist" aria-label="Jump to letter"></div>
+
+    <button id="backBtn" class="back-btn" aria-label="Back to the gift box">↺ close the box</button>
+  </section>
+
+  <script src="script.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"7f7b0fd8732c4326aae4b9d58d5c514a","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+<!-- <body>(๑ᵔ⤙ᵔ๑)</body>
+<body>ദ്ദി(˵ •̀ ᴗ - ˵ )</body> -->
