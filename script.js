@@ -198,7 +198,7 @@ const PLAYLIST = [
   'kj/6. Till There Was You - Remastered 2009.mp3',
   'kj/7. Raining In Manila.mp3',
   'kj/8. THE SHADE.mp3',
-  'kj/9. 流れ星 〜Shooting Star〜.mp3',
+  'kj/9. 流れ星 ~Shooting Star~.mp3',
   'kj/10. Pasilyo.mp3',
   'kj/11. Lovefool.mp3',
   'kj/12. 2516.mp3',
